@@ -12,8 +12,10 @@ namespace WordStreamAnalyser.Infrastructure
 
         public void WriteReport(StreamStatistics stats)
         {
-            _logger.LogInformation("Generating stream report: {WordCount} words, {CharCount} characters",
+            _logger.LogInformation("Writing to the console: {WordCount} words, {CharCount} characters",
                 stats.TotalWords, stats.TotalChars);
+
+            Console.Out.Flush();
 
             Console.WriteLine("\n--- Stream Statistics ---");
             Console.WriteLine($"Total Characters: {stats.TotalChars}");
