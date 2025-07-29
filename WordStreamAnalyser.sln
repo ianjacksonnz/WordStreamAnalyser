@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStreamAnalyser.ConsoleApp", "src\WordStreamAnalyser.ConsoleApp\WordStreamAnalyser.ConsoleApp.csproj", "{6A2F6A40-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStreamAnalyser.Application", "src\WordStreamAnalyser.Application\WordStreamAnalyser.Application.csproj", "{6A2F6A40-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStreamAnalyser.Domain", "src\WordStreamAnalyser.Domain\WordStreamAnalyser.Domain.csproj", "{6A2F6A40-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStreamAnalyser.Infrastructure", "src\WordStreamAnalyser.Infrastructure\WordStreamAnalyser.Infrastructure.csproj", "{6A2F6A40-4444-4444-4444-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordStreamAnalyser.Tests", "tests\WordStreamAnalyser.Tests\WordStreamAnalyser.Tests.csproj", "{6A2F6A40-5555-5555-5555-555555555555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A2F6A40-1111-1111-1111-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F6A40-1111-1111-1111-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F6A40-1111-1111-1111-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F6A40-1111-1111-1111-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2F6A40-2222-2222-2222-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F6A40-2222-2222-2222-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F6A40-2222-2222-2222-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F6A40-2222-2222-2222-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2F6A40-3333-3333-3333-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F6A40-3333-3333-3333-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F6A40-3333-3333-3333-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F6A40-3333-3333-3333-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2F6A40-4444-4444-4444-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F6A40-4444-4444-4444-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F6A40-4444-4444-4444-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F6A40-4444-4444-4444-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2F6A40-5555-5555-5555-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F6A40-5555-5555-5555-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F6A40-5555-5555-5555-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F6A40-5555-5555-5555-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7113F03-2FA0-4472-B1A3-C9DB4A4C42B6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\WordStreamAnalyser.Application\WordStreamAnalyser.Application.csproj" />
+    <ProjectReference Include="..\WordStreamAnalyser.Domain\WordStreamAnalyser.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Booster.CodingTest.Library">
+      <HintPath>..\..\..\Assemblies\Booster.CodingTest.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="NLipsum.Core">
+      <HintPath>..\..\..\Assemblies\NLipsum.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+</Project>
