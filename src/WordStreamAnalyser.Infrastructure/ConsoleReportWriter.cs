@@ -46,8 +46,6 @@ namespace WordStreamAnalyser.Infrastructure
             {
                 Console.WriteLine($"{entry.Key}: {entry.Value}");
             }
-
-            _logger.LogInformation("Stream report complete.");
         }
     }
 }
